@@ -1,0 +1,265 @@
+:root {
+    /*cores*/
+    --primary: #0699a6;
+    --secundary: #9e8c6c;
+    --background: #fff;
+    --bg-header: #9e8c6c11;
+    --text-light: #333;
+    --text-dark: #fff;
+
+    /*font weigth*/
+    --font-weight1:700;
+    --font-weight2:900;
+
+    /*font size*/
+    --font-size1:126px;
+    --font-size2:18px;
+    --font-size3:20px;
+
+    /*font*/
+
+    --font-family1:"pt sans narrow", sans-serif;
+    --font-family2:"playfair display";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background-color: var(--background);
+    color: var(--text-light);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: var(--secundary);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+.info {
+    text-align: left;
+    
+}
+
+.info p {
+    color: var(--text-light);
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 326px;
+    height: 20px;
+}
+
+.info h1 {
+    font-size: 36px;
+    color: #000;
+    width: 346px;
+    height: 92px;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--primary);
+    color: var(--text-dark);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.column1 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+.column1 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+
+.column2 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+.column2 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+.column3 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+.column3 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+
+.column4 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+
+
+.secao1 h2{
+    font-family:var(--font-family2);
+    color:#000;
+    
+}
+
+.secao1 p{
+    font-family:var(--font-family1);
+    color: #000;
+
+}
+
+.secao2 h2{
+    font-family:var(--font-family2);
+    color: #000;
+}
+
+.secao2 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+
+.secao2 h3{
+    font-family: var(--font-family1);
+    color: var(--secundary)
+}
+.secao3 h3{
+    font-family:var(--font-family2);
+    color: var(--secundary);
+}
+
+.secao3 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+
+.secao4 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+.secao4 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+
+.secao5 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+.secao5 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+
+.secao6 h3{
+    font-family:var(--font-family1);
+    color: var(--secundary);
+}
+
+.secao6 p{
+    font-family:var(--font-family1);
+    color: #000;
+}
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin: auto;
+}
+
+.caixa1 {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+}
+
+.caixa2 {
+    width: 65%;
+    height: auto;
+    padding: 20px;
+}
+
+.blue{
+    width: 71px;
+    height: 10px;
+    background-color: var(--primary);
+}
+
+.caixa1 div {
+    display: block;
+}
+
+.column4 a{
+    text-decoration: none;
+    color: #0699a6;
+    font-family:var(--font-family1);
+    font-weight: 700;
+    
+}
+
+li {
+    list-style-type: none;
+  }
+
+
+.secao1, .secao2, .secao3, .secao4, .secao5, .secao6 {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: var(--secundary);
+    padding: 30px;
+    color: var(--text-dark);
+    font-size: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+footer p {
+    font-family: var(--font-family2);
+    color: var(--primary)
+}
+
+.contact h2{
+    font-family: var(--font-family2);
+    color: #000
+}
+.social img {
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    display: inline-block;
+}
