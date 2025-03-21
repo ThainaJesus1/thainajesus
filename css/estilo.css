@@ -84,7 +84,7 @@ header {
 }
 
 .titles-wrapper h2 {
-    font-family: var(--font-family2);
+    font-family: var(--font-family1);
     color: var(--primary);
     margin: 0;
     font-size: 18px;
@@ -124,6 +124,7 @@ header {
     color: var(--text-dark);
     padding: 15px 40px;
     background-color: var(--primary);
+    font-family: var(--font-family2);
     
 }
 
@@ -180,15 +181,32 @@ header {
 }
 
 .column4 h3{
-    font-family:var(--font-family1);
+    font-family:var(--font-family2);
     color: var(--secundary);
+
 }
 
 .column4 ul{
     padding:0;
 }
 
+.column4 a{
+    text-decoration: none;
+    color: #0699a6;
+    font-family:var(--font-family1);
+    font-weight: 700;
+    
+}
 
+.trabalhos h2{
+    font-family:var(--font-family2);
+    color: #000;
+}
+
+.trabalhos p{
+    font-family: var(--font-family1);
+    color: #000;
+}
 
 .secao1 h2{
     font-family:var(--font-family2);
@@ -265,27 +283,8 @@ header {
     
 }
 
-.trabalhos{
-    
-    
-    
-    
-    
-}
 
-.trabalhos h2{
-    font-family:var(--font-family2);
-    color: #000;
-    font-weight: 900;
-    font-size: 36px;
-}
 
-.trabalhos p{
-    font-family:var(--font-family1);
-    color: #000;
-    font-size: 20px;
-    text-transform: uppercase; 
-}
 
 .portfolio{
     display: flex;
@@ -351,13 +350,7 @@ header {
     display: block;
 }
 
-.column4 a{
-    text-decoration: none;
-    color: #0699a6;
-    font-family:var(--font-family1);
-    font-weight: 700;
-    
-}
+
 
 li {
     list-style-type: none;
@@ -416,3 +409,108 @@ a{
     display: inline-block;
 }
 
+/* Adicionando responsividade */
+@media (max-width: 1024px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa1, .caixa2 {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .astonmartin img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .info h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .caixa1, .caixa2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .column1, .column2, .column3, .column4 {
+        width: 100%;
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .info h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .photo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+    .portfolio div {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .social img {
+        width: 24px;
+        height: 24px;
+    }
+}
